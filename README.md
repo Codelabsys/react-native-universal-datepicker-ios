@@ -1,7 +1,5 @@
 # react-native-universal-datepicker-ios.
 
-[![Codelab](http://www.codelabsys.com/images/logo.png)](http://www.codelabsys.com/) 
-
 ## Installing.
    [![NPM](https://nodei.co/npm/react-native-hijri-date-picker-android.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-hijri-date-picker-android/)
    
@@ -31,3 +29,13 @@ $ react-native link react-native-hijri-date-picker-android
 | dateFormat | string | dd-MM-yyyy | Format for the returned selected date |
 | calendar | string | Gregorian | sets native calendar type |
 | mode | string | datetime | type of the picker supports date, time, datetime |
+
+## Usage
+```javascript
+  import DatepickerIOS from 'react-native-universal-datepicker-ios';
+  
+ _onDateChange: function({date, timestamp}){}
+ 
+ <DatePickerIOS calendar="IslamicUmmAlQura" date={new Date().getTime()}  onDateChange={this._onDateChange} />
+```
+[![Codelab](http://www.codelabsys.com/images/logo.png)](http://www.codelabsys.com/) 
