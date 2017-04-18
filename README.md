@@ -40,7 +40,7 @@ $ react-native link react-native-hijri-date-picker-android
  
  <DatePickerIOS calendar="IslamicUmmAlQura" 
                 date={new Date().getTime()}  
-                onDateChange={this._onDateChange} />
+                onChange={this._onDateChange} />
 ```
 
 ## Credits
