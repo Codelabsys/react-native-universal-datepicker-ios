@@ -2,8 +2,7 @@
 
 [![Codelab](http://www.codelabsys.com/images/logo.png)](http://www.codelabsys.com/) 
 
-## Getting started
-### Installing
+## Installing
    [![NPM](https://nodei.co/npm/react-native-hijri-date-picker-android.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-hijri-date-picker-android/)
    
 $ npm install react-native-hijri-date-picker-android --save`
