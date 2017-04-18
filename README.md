@@ -1,13 +1,13 @@
-# react-native-universal-datepicker-ios
+# react-native-universal-datepicker-ios.
 
 [![Codelab](http://www.codelabsys.com/images/logo.png)](http://www.codelabsys.com/) 
 
-## Installing
+## Installing.
    [![NPM](https://nodei.co/npm/react-native-hijri-date-picker-android.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-hijri-date-picker-android/)
    
-$ npm install react-native-hijri-date-picker-android --save`
+$ npm install react-native-hijri-date-picker-android --save
 
-$ react-native link react-native-hijri-date-picker-android`
+$ react-native link react-native-hijri-date-picker-android
 
 ## List of available calendars.
 * Gregorian
@@ -20,7 +20,7 @@ $ react-native link react-native-hijri-date-picker-android`
 * coptic
 * ISO8601
 
-## Available props
+## Available props.
 
 | Name | Type| Default | Description |
 | --- | --- | --- | --- |
