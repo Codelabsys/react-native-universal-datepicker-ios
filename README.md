@@ -1,6 +1,8 @@
 # react-native-universal-datepicker-ios.
 [![Codelab](http://www.codelabsys.com/images/logo.png)](http://www.codelabsys.com/)
-#### This component works only on IOS for Android implementation of hijri calendar please check https://www.npmjs.com/package/react-native-hijri-date-picker-android
+
+#### This component works only on IOS.
+
 ## Installation.
    [![NPM](https://nodei.co/npm/react-native-hijri-date-picker-android.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-hijri-date-picker-android/)
    
