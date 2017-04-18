@@ -1,6 +1,6 @@
 {
   "name": "react-native-universal-datepicker-ios",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React native datepicker that supports different calendars such as [Gregorian, hijri, IslamicUmmAlQura, Islamic, chinese, coptic, ISO8601, indian, islamicCivil, japanese, persian, republicOfChina, islamicTabular]",
   "main": "DatePickerIOS.js",
   "scripts": {
