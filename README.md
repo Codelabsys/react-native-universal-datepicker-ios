@@ -6,9 +6,9 @@
 ## Installation.
    [![NPM](https://nodei.co/npm/react-native-hijri-date-picker-android.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-hijri-date-picker-android/)
    
-$ npm install react-native-hijri-date-picker-android --save
+$ npm install react-native-universal-datepicker-ios --save
 
-$ react-native link react-native-hijri-date-picker-android
+$ react-native link react-native-universal-datepicker-ios
 
 ## List of available calendars.
 * Gregorian
