@@ -47,4 +47,4 @@ $ react-native link react-native-universal-datepicker-ios
 
 ## Credits
 
-This project was made by the help of [Assem-Hafez](https://github.com/Assem-Hafez)
+This project was made by the help of [basemsaadawy](https://github.com/basemsaadawy)
