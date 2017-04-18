@@ -36,6 +36,8 @@ $ react-native link react-native-hijri-date-picker-android
   
  _onDateChange: function({date, timestamp}){}
  
- <DatePickerIOS calendar="IslamicUmmAlQura" date={new Date().getTime()}  onDateChange={this._onDateChange} />
+ <DatePickerIOS calendar="IslamicUmmAlQura" 
+                date={new Date().getTime()}  
+                onDateChange={this._onDateChange} />
 ```
 [![Codelab](http://www.codelabsys.com/images/logo.png)](http://www.codelabsys.com/) 
