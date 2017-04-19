@@ -4,7 +4,7 @@
 #### This component works only on IOS.
 
 ## Installation.
-   [![NPM](https://nodei.co/npm/react-native-universal-datepicker-ios.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-hijri-date-picker-android/)
+   [![NPM](https://nodei.co/npm/react-native-universal-datepicker-ios.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/react-native-universal-datepicker-ios)
    
 $ npm install react-native-universal-datepicker-ios --save
 
