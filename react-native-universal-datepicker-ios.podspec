@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license      = package["license"]
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/Codelabsys/react-native-universal-datepicker-ios", :tag => "v#{s.version}" }
-  s.source_files  = 'Datepicker/Datepicker/RCTDatePickerIos.h', 'Datepicker/Datepicker/RCTDatePickerIos.m'
+  s.source_files  = "Datepicker/Datepicker/*.{h,m}"
 
   s.dependency "React"
 end
