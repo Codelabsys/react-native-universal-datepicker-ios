@@ -70,6 +70,18 @@ RCT_CUSTOM_VIEW_PROPERTY(dateFormat, NSString, RCTDatePickerIos)
   self.dateFormat = json;
 }
 
+RCT_CUSTOM_VIEW_PROPERTY(displayIOS, UIDatePickerStyle, RNDateTimePicker)
+{
+    if (@available(iOS 13.4, *)) {
+        if (json) {
+            UIDatePickerStyle propValue = [RCTConvert UIDatePickerStyle:json];
+            view.preferredDatePickerStyle = propValue;
+        } else {
+            view.preferredDatePickerStyle = UIDatePickerStyleAutomatic;
+        }
+    }
+}
+
 RCT_REMAP_VIEW_PROPERTY(mode, datePickerMode, UIDatePickerMode)
 RCT_EXPORT_VIEW_PROPERTY(onChange, RCTBubblingEventBlock)
 
