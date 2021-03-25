@@ -73,7 +73,7 @@ RCT_CUSTOM_VIEW_PROPERTY(dateFormat, NSString, RCTDatePickerIos)
 
 
 
-RCT_CUSTOM_VIEW_PROPERTY(displayIOS, UIDatePickerStyle, RCTDatePickerIos)
+RCT_CUSTOM_VIEW_PROPERTY(display, UIDatePickerStyle, RCTDatePickerIos)
 {
     UIDatePicker * datePickerInst = ((UIDatePicker *)view);
 
