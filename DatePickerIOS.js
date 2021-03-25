@@ -26,6 +26,7 @@ class DatePickerIOS extends Component {
           maximumDate={props.maximumDate}
           minimumDate={props.minimumDate}
           dateFormat={props.dateFormat}
+          display={props.display}
           style={styles.datePickerIOS}
         />
       </View>
@@ -41,6 +42,7 @@ DatePickerIOS.propTypes = {
   timeZoneOffsetInMinutes: PropTypes.number,
   dateFormat: PropTypes.string,
   calendar: PropTypes.string,
+  display: PropTypes.string,
 }
 DatePickerIOS.defaultProps = {
   mode: 'datetime',
